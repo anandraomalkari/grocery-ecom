@@ -1,0 +1,59 @@
+.titlebar{
+    margin: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 60px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    width: 20%;
+    /* border-top-right-radius: 20px; */
+    border-bottom-right-radius: 90px;
+}
+.titlebar h2, h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.othercontainer{
+    letter-spacing: 1px;
+    position: relative;
+    width: 1250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.othercontainer .othercard{
+    padding: 10px;
+    margin: 10px;
+}
+
+.othercontainer #links{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+.othercontainer .othercard #links .nameofpro{
+    text-align: center;
+    position: relative;
+    width: 140px;
+    align-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+    background: #fff;
+    height: auto;
+    box-shadow: 0px 8px 12px rgba(2,30,84,.06);
+    /* border: 2px solid #000; */
+}
+.othercontainer .othercard #links .nameofpro:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 12px 12px 12px rgba(2,30,84,.06);
+}
+.nameofpro h3{
+    font-size: 20px;
+}

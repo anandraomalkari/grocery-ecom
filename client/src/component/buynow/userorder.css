@@ -1,0 +1,23 @@
+.item_containerts{
+    padding: 10px 5px 20px 15px;
+    display: grid;
+    grid-template-columns:.8fr 2fr .1fr;
+}
+
+.item_containerts img{
+    width: 70%;
+}
+
+.item_containerts h3{
+    font-weight: 500;
+}
+
+.item_containerts .item_price{
+    font-weight:700;
+}
+
+.item_containerts p{
+    font-size: 13px;
+    color: #565959!important;
+    font-weight: 500;
+}

@@ -1,0 +1,84 @@
+
+
+
+/* Products */
+.home_section{
+    width: 100%;
+    position: relative;
+    top: 60px;
+    background-color: #e7e7e7;
+    min-height: calc(100vh - 60px);
+    border-bottom: 2px solid rgba(199,199,199);
+    margin-bottom: 10px;
+}
+.home_section .flour_products_section{
+    width: 97%;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.flour_products_section{
+    width: 100%;
+    position: relative;
+    background-color: #e7e7e7;
+    max-height: calc(100vh - 60px);
+    border-bottom: 2px solid rgba(199,199,199);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.flour_products_section .flour_products_deal{
+    margin: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flour_products_section .flour_products_deal h3{
+    color: #444;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.flour_products_section .flour_products_deal p{
+    color: rgb(115, 115, 115);
+}
+.flour_products_section a{
+    text-decoration: none;
+    color: #111;
+}
+.flour_products_section .flour_products_items img{
+    width: 250px;
+    height: 200px;
+    margin-top: 4px;
+    border-radius: 7px;
+    box-shadow: 2px 12px 12px 0 rgb(119, 119, 119);
+}
+
+.flour_products_section .flour_products_items{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flour_products_section .flour_products_items p{
+    font-size: 14px;
+}
+
+.flour_products_section .flour_products_items p{
+    margin-top: 10px;
+}
+
+@media (max-width:772px){
+    .flour_products_items img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .flour_products_section .flour_products_items img{
+        width: 100%;
+        height: 100%;
+    }
+}
