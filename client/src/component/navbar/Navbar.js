@@ -108,9 +108,9 @@ const Navbar = () => {
                     </IconButton> */}
 
                     <div className="navlogo">
-                        <NavLink to="/"><img src={logoimage} alt="Logo" /></NavLink>
+                        <NavLink to="/">Grocery Ecom</NavLink>
                     </div>
-                    <h1 className='storename'>Bajrang Makhana Foodstuff</h1>
+                    // <h1 className='storename'>Bajrang Makhana Foodstuff</h1>
                     {/* <div className="nav_searchbar">
             <input type="text" name="" id="" />
             <div className="search_icon">
