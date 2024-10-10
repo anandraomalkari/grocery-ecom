@@ -73,11 +73,11 @@ const Signin = () => {
         <section>
             <div className="sign_container">
                 <div className="sign_header">
-                    <NavLink to="/"><img src={logoimg} alt="signupimg" /></NavLink>
+                    <NavLink to="/">Grocery Ecom</NavLink>
                 </div>
                 <div className="sign_form">
                     <form method="POST">
-                        <NavLink to="/"><img src={logoimg} alt="signupimg" /></NavLink>
+                        <NavLink to="/">Grocery Ecom</NavLink>
                         <div className="form_data">
                             <label htmlFor="email">Email</label>
                             <input type="email" name="email"

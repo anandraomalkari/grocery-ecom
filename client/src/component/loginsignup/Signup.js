@@ -49,19 +49,19 @@ const Signup = () => {
 
             const data = await res.json();
             //console.log(data);
-            if(res.status === 422 || !data){
+            if (res.status === 422 || !data) {
                 //alert("No data");
 
-                toast.warn("Unsccessful",{
+                toast.warn("Unsccessful", {
                     position: "top-center"
                 });
             }
-            else{
+            else {
                 //alert("data successfuly add");
-                toast.success("Add successfully",{
+                toast.success("Add successfully", {
                     position: "top-center"
                 });
-                setUdata({...udata, fname:"",email:"", mobile:"",password:"",cpassword:""});
+                setUdata({ ...udata, fname: "", email: "", mobile: "", password: "", cpassword: "" });
 
             }
         } catch (error) {
@@ -73,7 +73,7 @@ const Signup = () => {
         <section>
             <div className="sign_container">
                 <div className="sign_header">
-                    <img src={logoimg} alt="signupimg" />
+                    Grocery Ecom
                 </div>
                 <div className="sign_form">
                     <form method="POST">
