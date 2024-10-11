@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ce63fd98.css",
-    "main.js": "/static/js/main.3cbfc5c6.js",
+    "main.js": "/static/js/main.4d0d211f.js",
     "static/js/787.17c43eeb.chunk.js": "/static/js/787.17c43eeb.chunk.js",
     "static/media/tastyiranianpistachios.png": "/static/media/tastyiranianpistachios.a24ef90de5ebf900f441.png",
     "static/media/walnut_akhrot_kernels.png": "/static/media/walnut_akhrot_kernels.766e564398f4bc5d034d.png",
@@ -39,11 +39,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.ce63fd98.css.map": "/static/css/main.ce63fd98.css.map",
-    "main.3cbfc5c6.js.map": "/static/js/main.3cbfc5c6.js.map",
+    "main.4d0d211f.js.map": "/static/js/main.4d0d211f.js.map",
     "787.17c43eeb.chunk.js.map": "/static/js/787.17c43eeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce63fd98.css",
-    "static/js/main.3cbfc5c6.js"
+    "static/js/main.4d0d211f.js"
   ]
 }
