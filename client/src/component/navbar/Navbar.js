@@ -108,7 +108,7 @@ const Navbar = () => {
                     </IconButton> */}
 
                     <div className="navlogo">
-                        <NavLink to="/">Grocery Ecom</NavLink>
+                        <NavLink to="/" className='logohead'>Grocery Ecom</NavLink>
                     </div>
                     {/* <h1 className='storename'>Bajrang Makhana Foodstuff</h1> */}
                     {/* <div className="nav_searchbar">

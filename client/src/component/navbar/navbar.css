@@ -19,14 +19,16 @@ header nav {
     margin: auto;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     z-index: 4;
 }
 
-header nav .navlogo img {
-    width: 170px;
+header nav .navlogo .logohead {
+    color: #fff;
+    text-decoration: none;
     margin-top: 10px;
+    position: relative;
 }
 
 header nav h1 {
@@ -37,8 +39,11 @@ header nav h1 {
 
 header nav .left {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    position: relative;
+    left: 10%;
     /* border: 2px solid red; */
     flex: .7;
 }
